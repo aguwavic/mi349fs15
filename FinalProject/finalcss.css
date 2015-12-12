@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+html {
+background-image:url(Layer_5.png)
+
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto; 
+	border-color: #8A090B;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	padding-top: 0px;
+	background-color: #000;
+	color: #fff
+}
+
+#nav {
+	background-color: #605757;
+	list-style-type: none;
+	border-style: solid;
+	border-color: #8A090B;
+	border-width: 5px;
+	padding: 10px;
+	margin-right:-55px;
+	margin-left:-55px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, 			    Arial, sans-serif;
+	text-align:center;
+}
+#nav li{
+	display:inline;
+	
+	}
+#nav a {
+	
+	color: #8A090B;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 10px;
+
+
+}
+#nav a:hover {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bolder;
+	background-color: #000;
+	border-radius:8px
+}
+#na a:visited {
+	color : #fff;
+	text-decoration: underline;
+		
+}
+
+#snake {
+	padding: 10px;
+	margin-right:-55px;
+	margin-left:-33px;
+
+}
+
+
+h1 {
+	color: #8A090B;
+	background-color:#605757;
+	border-style: solid;
+	border-color: #8A090B;
+	border-width: 5px;
+	font-size:20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, 			    Arial, sans-serif;
+}
+
+img {
+
+	border-color: #8A090B;
+	border-style: solid;
+	border-width: 5px;
+	margin-left:-10px;
+	
+}
+
+
+a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #1887CC;
+}
+
+a:hover {
+	font-weight:bolder;
+	text-decoration:underline;
+	color : #fff;
+}
+
+a:visited {
+	color : #fff;
+	text-decoration:underline;
+}
+
+
+
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1;  }
+
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+	
